@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F8F8F8;
+    padding: 20px;
+}
+.login_side{
+    width: 35%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    float: left;
+    height: 45rem;
+}
+.logo{
+    text-align: center;
+    padding-top: 20px;
+}
+.bd_logo{
+    background-color: blue;
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.hover marquee{
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 2px solid rgb(43, 23, 23);
+}
+form .login_button, .forget_pass{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+.user_form, .Tr_server{
+    margin-left: 45px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #356ea3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.noticed_side{
+  width: 65%;
+  box-sizing: border-box;
+  float: left;
+}
+.container{
+    padding-left: 20px;
+}
+.header{
+    background-color: #0250c4;
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.hd_right_lgo{
+    width: 30%;
+}
+.hd_right_lgo img{
+    width: 80px;
+    background-color: #0250c4;
+    border: 2px double black;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.hd_content{
+    text-align: center;
+    color: white;
+    
+}
+.hd_content h1{
+    margin-bottom: 10px;
+}
+.hd_left_lgo{
+    width: 30%;
+}
+.hd_left_lgo img{
+    width: 80px;
+    float: right;
+    border: 2px double black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.noticed_1{
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    border-radius: 50px;
+    padding: 25px; 
+    margin-bottom: 30px;
+}
+.noticed_1 h2{
+    text-align: center;
+    color: red;
+}
+.noticed_1 p{
+    margin-top: 10px;
+    text-align: justify;
+}
+.noticed_1 .red{
+    color: red;
+}
+.noticed_1 #green{
+    color: green;
+}
+.help_desk{
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    border-radius: 50px;
+    padding: 25px; 
+    margin-bottom: 10px;
+}
+.help_desk h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px; 
+}
+.help_desk p{
+    text-align: justify;
+}
+
+footer{
+    background-color: blue;
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
